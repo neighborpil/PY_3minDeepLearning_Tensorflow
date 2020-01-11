@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ThreeMinDeeplearning", "Thr
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CH03", "CH03\CH03.pyproj", "{184FD0F7-3745-4E8D-839D-A5EE8E6C9220}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CH04", "CH04\CH04.pyproj", "{4F8B8B86-0BEC-4CEC-9484-EA9B08DE6752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{36EF322B-B2D1-4BF0-8669-01CEA4C5C74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{184FD0F7-3745-4E8D-839D-A5EE8E6C9220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{184FD0F7-3745-4E8D-839D-A5EE8E6C9220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8B8B86-0BEC-4CEC-9484-EA9B08DE6752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8B8B86-0BEC-4CEC-9484-EA9B08DE6752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

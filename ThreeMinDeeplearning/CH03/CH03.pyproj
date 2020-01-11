@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>184fd0f7-3745-4e8d-839d-a5ee8e6c9220</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Code_3.2.py</StartupFile>
+    <StartupFile>Code_3.3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="Code_3.1.py" />
     <Compile Include="Code_3.2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Code_3.3.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
