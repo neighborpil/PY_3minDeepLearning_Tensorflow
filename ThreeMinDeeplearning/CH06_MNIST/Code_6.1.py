@@ -52,7 +52,7 @@ total_batch = int(mnist.train.num_examples / batch_size) # 미니 배치의 개�
 
 # MNIST 데이터 전체를 학습하는 일을 총 15번 반복
 # 에포크(epoch) : 학습 데이터 전체를 한 바퀴 도는 것을 에포크
-for epoch in range(15):
+for epoch in range(30):
     total_cost = 0
 
     # 한 에포크 내에서 미니배치 사이즈의 총 개수만큼 반복
