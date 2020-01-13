@@ -15,6 +15,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CH06_MNIST", "CH06_MNIST\CH
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CH07_CNN", "CH07_CNN\CH07_CNN.pyproj", "{332C7E56-B85A-4931-8BB1-91CB667D5C83}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CH08_UnsupervisedLearning_Autoencoder", "CH08_UnsupervisedLearning_Autoencoder\CH08_UnsupervisedLearning_Autoencoder.pyproj", "{7D37B934-4E08-4B58-AE4F-E0CD22532E01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,8 @@ Global
 		{6171371A-1D37-443D-907E-A924D229FCB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{332C7E56-B85A-4931-8BB1-91CB667D5C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{332C7E56-B85A-4931-8BB1-91CB667D5C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D37B934-4E08-4B58-AE4F-E0CD22532E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D37B934-4E08-4B58-AE4F-E0CD22532E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
