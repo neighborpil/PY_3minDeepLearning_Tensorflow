@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>793b9371-bd7f-4e38-8cce-bb2dbf4bc657</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CH10_RNN.py</StartupFile>
+    <StartupFile>Code_10.2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CH10_RNN.py" />
+    <Compile Include="Code_10.1.py" />
+    <Compile Include="Code_10.2.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="mnist\" />
+    <Folder Include="mnist\data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mnist\data\t10k-images.idx3-ubyte" />
+    <Content Include="mnist\data\t10k-labels.idx1-ubyte" />
+    <Content Include="mnist\data\train-images.idx3-ubyte" />
+    <Content Include="mnist\data\train-labels.idx1-ubyte" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
