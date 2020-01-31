@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>CH10_RNN</Name>
     <RootNamespace>CH10_RNN</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,6 +26,7 @@
     <Compile Include="Code_10.2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Code_10_3.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="mnist\" />
@@ -35,6 +37,9 @@
     <Content Include="mnist\data\t10k-labels.idx1-ubyte" />
     <Content Include="mnist\data\train-images.idx3-ubyte" />
     <Content Include="mnist\data\train-labels.idx1-ubyte" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
